@@ -1,5 +1,6 @@
 require_relative 'spec_helper'
 
+
 describe Student do
   before :each do
     DB[:conn].execute("DROP TABLE IF EXISTS students")
